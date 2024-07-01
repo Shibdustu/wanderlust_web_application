@@ -40,7 +40,7 @@ app.listen(port, () => {
 
 
 main().then(() => {
-    console.log("connect ");
+    console.log("connect to db");
 })
     .catch(err => console.log(err));
 
